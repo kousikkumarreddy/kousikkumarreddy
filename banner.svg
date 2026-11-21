@@ -10,22 +10,44 @@
     </linearGradient>
   </defs>
 
+  <!-- Animated background -->
   <rect width="1200" height="280" fill="url(#bg)"/>
 
+  <!-- Name -->
   <text x="600" y="115"
         text-anchor="middle"
-        font-family="Arial"
+        font-family="Arial, sans-serif"
         font-size="58"
         font-weight="bold"
         fill="white">
     Kousik Kumar Reddy
   </text>
 
+  <!-- Designation -->
   <text x="600" y="175"
         text-anchor="middle"
-        font-family="Arial"
+        font-family="Arial, sans-serif"
         font-size="27"
         fill="white">
     Data Scientist | AI &amp; ML Engineer | Generative AI
   </text>
+
+  <!-- Flowing waves -->
+  <path fill="#ffffff" opacity="0.18"
+        d="M0 215 C150 175 300 255 450 215 S750 175 900 215 S1050 255 1200 210 V280 H0 Z">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="
+      M0 215 C150 175 300 255 450 215 S750 175 900 215 S1050 255 1200 210 V280 H0 Z;
+      M0 225 C150 265 300 185 450 225 S750 265 900 225 S1050 185 1200 225 V280 H0 Z;
+      M0 215 C150 175 300 255 450 215 S750 175 900 215 S1050 255 1200 210 V280 H0 Z"/>
+  </path>
+
+  <path fill="#ffffff" opacity="0.25"
+        d="M0 240 C180 200 300 270 480 235 S780 200 960 240 S1080 260 1200 235 V280 H0 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="
+      M0 240 C180 200 300 270 480 235 S780 200 960 240 S1080 260 1200 235 V280 H0 Z;
+      M0 230 C180 270 300 210 480 245 S780 270 960 230 S1080 210 1200 245 V280 H0 Z;
+      M0 240 C180 200 300 270 480 235 S780 200 960 240 S1080 260 1200 235 V280 H0 Z"/>
+  </path>
 </svg>

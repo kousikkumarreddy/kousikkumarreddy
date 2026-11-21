@@ -29,7 +29,7 @@
 ### 💻 Programming Languages
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=python,c,java" />
+  <img src="https://skillicons.dev/icons?i=python,mysql" />
 </p>
 
 ### 🤖 Artificial Intelligence & Machine Learning
